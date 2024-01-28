@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2024 @Eng.ziroh
  */
 
 
@@ -129,7 +129,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, a, button, time, span { display: auto; }
 
 button {
   font: inherit;
@@ -1130,10 +1130,15 @@ main {
   border-radius: 16px;
   margin-bottom: 30px;
   border: 1px solid var(--jet);
-  overflow: hidden;
+  overflow: available;
+  
 }
 
-.mapbox figure { height: 100%; }
+.mapbox figure { height: 100%; 
+  display: color;
+background-color: auto;
+}
+
 
 .mapbox iframe {
   width: 100%;
